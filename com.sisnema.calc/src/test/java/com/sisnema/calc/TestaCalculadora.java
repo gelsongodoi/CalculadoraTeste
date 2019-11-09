@@ -13,9 +13,8 @@ public class TestaCalculadora {
 		assertEquals(7, c.soma(3, 4));
 	}
 
-	@Test
-	public void testFail() {
-		assertEquals(8, c.soma(3, 4));
-	}
+	/*
+	 * @Test public void testFail() { assertEquals(8, c.soma(3, 4)); }
+	 */
 
 }
